@@ -1,0 +1,170 @@
+body {
+    font-family: Dosis;
+}
+
+header {
+    background-color: #222222;
+    height: 60px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    color: #fff;
+    height: 100%;
+    font-size: 24px;
+}
+
+.orange {
+    color: #FF7417;
+}
+
+.number {
+    color: #fff;
+    background-color: #BD1DBD;
+    padding: 0 4px;
+}
+
+.top-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    margin: 32px;
+}
+
+.row [class*="col-"] {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+
+.item-image {
+    max-width: 100%;
+}
+
+.img-container {
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.item-name {
+    text-align: center;
+    font-size: 16px;
+}
+
+.purchase-items {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-cost {
+    font-size: 16px;
+}
+
+footer {
+    background-color: #222222;
+}
+
+small {
+    font-size: 14px;
+}
+
+.footer-bottom {
+    padding: 6px 0;
+    color: #fff;
+}
+
+    /*  MODAL   */
+.modal-dialog {
+    width: 90%;
+    max-width: 1000px;
+}
+
+.modal-header {
+    border-bottom: 0;
+}
+
+.modal-content {
+    background-color: #F9FAFD;
+}
+
+.modal-title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    margin: 15px;
+}
+
+.modal-footer {
+    border-top: 0;
+}
+
+.close-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+/*
+.item-count-number {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100%;
+}
+
+.arrow-up-icon {
+    max-width: 8%;
+    position: absolute;
+    left: 212px;
+    top: 48px;
+}
+
+.arrow-down-icon {
+    max-width: 8%;
+    position: absolute;
+    left: 214px;
+    bottom: 48px;
+}
+*/
+
+.total-cost {
+    margin: 5px;
+}
+
+.buy-btn {
+    background-color: #FF7417;
+    margin: 5px;
+}
+
+.relative {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.modal-item-name {
+    margin-top: auto;
+}
+
+.modal-item-cost {
+    margin-bottom: auto;
+}
+
+.bin-icon {
+    margin-left: 4px;
+}
